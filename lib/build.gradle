@@ -40,7 +40,7 @@ publish {
     userOrg = 'jenly'//bintray.com用户名
     groupId = 'com.king.view'//jcenter上的路径
     artifactId = 'counterview'//项目名称
-    publishVersion = '1.0'//版本号
+    publishVersion = '1.1.0'//版本号
     desc = 'CounterView for Android'//描述
     website = 'https://github.com/jenly1314/CounterView'//网站
 }

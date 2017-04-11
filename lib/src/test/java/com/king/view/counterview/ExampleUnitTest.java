@@ -1,4 +1,4 @@
-package com.king.view;
+package com.king.view.counterview;
 
 import org.junit.Test;
 

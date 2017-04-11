@@ -22,7 +22,7 @@
      FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
      DEALINGS IN THE SOFTWARE.
  */
-package com.king.view;
+package com.king.view.counterview;
 
 import android.animation.TimeInterpolator;
 import android.animation.ValueAnimator;
@@ -32,6 +32,8 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.TextView;
+
+import com.king.view.counterview.R;
 
 /**
  * @author Jenly <a href="mailto:jenly1314@gmail.com">Jenly</a>
@@ -73,7 +75,7 @@ public class CounterView extends TextView {
 
     private void init(Context context,AttributeSet attrs){
         interpolator = new AccelerateDecelerateInterpolator();
-        TypedArray a = context.obtainStyledAttributes(attrs,R.styleable.CounterView);
+        TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CounterView);
         mDuration = a.getInt(R.styleable.CounterView_duration,DEFAULT_DURATION);
 
         a.recycle();

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.king.counter.MainActivity">
 
-    <com.king.view.CounterView
+    <com.king.view.counterview.CounterView
         android:id="@+id/counterView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
