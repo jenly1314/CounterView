@@ -15,18 +15,18 @@ CounterView for Android 一个数字变化效果的计数器视图控件。
 ```
 <dependency>
   <groupId>com.king.view</groupId>
-  <artifactId>CounterView</artifactId>
+  <artifactId>counterview</artifactId>
   <version>1.1.0</version>
   <type>pom</type>
 </dependency>
 ```
 ### Gradle:
 ```
-compile 'com.king.view:CounterView:1.1.0'
+compile 'com.king.view:counterview:1.1.0'
 ```
 ### Lvy:
 ```
-<dependency org='com.king.view' name='CounterView' rev='1.1.0'>
+<dependency org='com.king.view' name='counterview' rev='1.1.0'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
 ```
