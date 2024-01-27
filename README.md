@@ -3,7 +3,6 @@
 [![](https://jitpack.io/v/jenly1314/CounterView.svg)](https://jitpack.io/#jenly1314/CounterView)
 [![API](https://img.shields.io/badge/API-15%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=15)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/mit-license.php)
-[![Blog](https://img.shields.io/badge/blog-Jenly-9933CC.svg)](http://blog.csdn.net/jenly121)
 
 CounterView for Android 一个数字变化效果的计数器视图控件。
 
@@ -39,6 +38,7 @@ CounterView for Android 一个数字变化效果的计数器视图控件。
 // 显示动画
 counterView.showAnimation(10000);
 ```
+更多使用详情，请查看[app](app)中的源码使用示例或直接查看[API帮助文档](https://jitpack.io/com/github/jenly1314/CounterView/latest/javadoc/)
 
 ## 赞赏
 如果您喜欢CounterView，或感觉CounterView帮助到了您，可以点右上角“Star”支持一下，您的支持就是我的动力，谢谢 :smiley:
