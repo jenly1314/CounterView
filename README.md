@@ -35,6 +35,15 @@ CounterView for Android 一个数字变化效果的计数器视图控件。
 
 ## 使用
 
+布局示例
+```Xml
+<com.king.view.counterview.CounterView
+    android:id="@+id/counterView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:duration="2000"/>
+```
+
 核心代码示例
 ```Java
 // 显示动画
@@ -53,7 +62,6 @@ counterView.showAnimation(10000);
 - [DragPolygonView](https://github.com/jenly1314/DragPolygonView) 一个支持可拖动多边形，支持通过拖拽多边形的角改变其形状的任意多边形控件。
 - [CircleProgressView](https://github.com/jenly1314/CircleProgressView) 一个圆形的进度动画控件，动画效果纵享丝滑。
 - [ArcSeekBar](https://github.com/jenly1314/ArcSeekBar) 一个弧形的拖动条进度控件，配置参数完全可定制化。
-
 
 ---
 
